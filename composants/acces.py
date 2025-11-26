@@ -11,3 +11,5 @@ class Acces:
     def actionnerPanneau():
         PanneauAffichage.afficherPlacesDisponibles()
         #le panneau d'affichage va afficher les places disponibles
+
+

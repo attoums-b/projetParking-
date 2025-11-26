@@ -1,3 +1,5 @@
+from .place import Place
+
 class voiture:
     def __init__(self,hauteur,longueur,immatriculation):
         self.hauteur = hauteur
@@ -6,5 +8,5 @@ class voiture:
         self.place = None # la voiture n'a pas encore de places
 
 
-    def addPlacement(self,p):
+    def entrerDansParking(self):
         pass

@@ -1,3 +1,5 @@
+from .borne import BorneTicket
+
 class PanneauAffichage:
     def afficherPlacesDisponibles(self,p):
         #on parcours pour un parking , sa liste de places
@@ -7,7 +9,12 @@ class PanneauAffichage:
                 #si c'est le cas , on affiche les places
                 print(places)
 
-        
+    def AfficherInstructions(self):
+        BorneTicket.proposerServices()
+        BorneTicket.proposerAbonnement()
+        BorneTicket.proposerTypePaiment()
+
+
             
 
 
